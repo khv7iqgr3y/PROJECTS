@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: antiquewhite;
+    background-image: url("asset/body\ bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #111111; */
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    /* background: radial-gradient(circle, #000000, #434343);
+     */
+     background-image: url("asset/bg.jpg");
+     background-size: cover;
+     height: 300px;
+     width: 400px; ;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: 200px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #0b0a0a;
+    border-radius: 50px;
+}
+
+  
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 50px;
+    cursor: pointer;
+} 
+
+button:hover {
+    background-color: #735bf8;
+}
+
+#weatherResult {
+    position: relative;
+    background-color: rgba(245, 239, 239, 0.7);
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: rgb(0, 0, 14);
+    display: inline-block;
+    max-width: fit-content;
+    max-height: fit-content;
+    font-size: 12px;
+    text-align: center;
+     margin-top: 10px;
+}
+
+  
+#weatherResult::after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 10px 10px 0;
+    border-color: #00aabb transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    bottom: -10px;
+    left: 20px;
+  }
