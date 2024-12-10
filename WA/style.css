@@ -8,14 +8,13 @@ body {
     background-image: url("asset/body\ bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-color: #111111; */
+    
     margin: 0;
 }
 
 .container {
     text-align: center;
-    /* background: radial-gradient(circle, #000000, #434343);
-     */
+   
      background-image: url("asset/bg.jpg");
      background-size: cover;
      height: 300px;
